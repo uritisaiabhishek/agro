@@ -1,4 +1,7 @@
-<?php require_once 'includes/header.inc.php'; ?>
+<?php 
+  $site_title = "About Us :: Sharada Agro Industries";
+  require_once 'includes/header.inc.php'; 
+?>
 
 <!--banner-->
 <section class="i-banner">
