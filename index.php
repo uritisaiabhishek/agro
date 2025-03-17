@@ -10,7 +10,7 @@
 <section class="banner">
   <div class="b-slider-view">
     	<div class="banner-right-e">
-        	<img src="assets/img/banner1.jpg" style="z-index:-2;margin-right:0;" class="img-fluid">
+        	<img src="assets/img/home-image.png" style="z-index:-2;margin-right:0;" class="img-fluid">
       </div>
   </div>
 </section>
@@ -27,11 +27,11 @@
            <p><strong>Sharada Agro Industries</strong> is a Modern Agriculture Company. We develop products and systems to help farmers around the world grow crops while using the best of the inputs efficiently. We believe Organic Inputs has the potential to bring humanity’s needs in balance with the resources of our planet.</p>
 
             <p>Sharada Agro Industries was established in the year 1996, during that time it was one of India’s First Bio Fertilizers company.  Since then the company has diversified into multiple categories of Agriculture Inputs.  The company’s policy is to provide the best of the products and never compromise with the quality, which is evident from regular sample tests of the products at Government level from time to time. </p>
-            <a href="overview.php" class="read-more">READ MORE</a> </div>
+            <a href="aboutus.php" class="read-more">READ MORE</a> </div>
         </div>
       </div>
       <div class="col-md-6 col-12">
-        <div class="welcome-img"> <a href="overview.php"><img class="img-fluid" src="assets/img/banner-inner.png"></a> </div>
+        <div class="welcome-img"> <a href="aboutus.php"><img class="img-fluid" src="assets/img/banner-inner.png"></a> </div>
       </div>
     </div>
   </div>

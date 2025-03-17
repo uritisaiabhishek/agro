@@ -44,7 +44,7 @@
                     'usage' => '1-2 Kg per acre',
                     'price' => '₹ 50/Kg',
                     'stock' => 'Available'
-                ]
+                ],
             ]
         ],
         ['name' => 'Organic Fertilizers & Manures', 'url' => 'organic-fertilizers-manures'],

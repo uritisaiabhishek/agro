@@ -70,7 +70,7 @@
                   <div class="contact-address">
                      <div class="adddress">
                         <span><i class="la la-map-marker"></i></span>
-                        <p>Head Office : J-71, Ashok Chowk, Adarsh Nagar,<br> Jaipur – 302004 (Rajasthan) INDIA</p>
+                        <p>Regd office:- 4-2-164, spnagar, vikarabad, 501101, Telangana state <br> Factory:- sy no 28, Burgupally village, vikarabad, Telangana state, 501101</p>                        
                      </div>
                      <div class="adddress">
                         <span><i class="la la-phone"></i></span>
@@ -79,8 +79,8 @@
                      </div>
                      <div class="adddress">
                         <span><i class="la la-envelope"></i></span>
-                        <p class="w-100"><strong>Domestic Enquiries:</strong> &nbsp;<a href="mailto:shivam@jaipurbiofertilizer.com">shivam@jaipurbiofertilizer.com </a></p>
-                        <p style="margin:-8px 0 0 0;" class="w-100"><strong>Export Enquiries:</strong> &nbsp;<a href="mailto:sanchali@jaipurbiofertilizer.com">sanchali@jaipurbiofertilizer.com </a></p>
+                        <p class="w-100"><strong>Domestic Enquiries:</strong> &nbsp;<a href="mailto:contact@sharadaagro.com">contact@sharadaagro.com</a></p>
+                        <p style="margin:-8px 0 0 0;" class="w-100"><strong>Export Enquiries:</strong> &nbsp;<a href="mailto:contact@sharadaagro.com">contact@sharadaagro.com</a></p>
                      </div>
                      <h2 class="heading-page">
                         <span>Brochures</span>
@@ -99,7 +99,7 @@
       </div>
    </div>
    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.948951575814!2d75.82590421501929!3d26.905115166894216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db6bf6fffff97%3A0x2dc887d83171109!2sJaipur%20Bio%20Fertilizers!5e0!3m2!1sen!2sin!4v1574864203430!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.4296412774206!2d77.9000714!3d17.294807399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc9619c3c8af367%3A0xe38404ad6a6feed!2sSharada%20Agro%20industries!5e0!3m2!1sen!2sin!4v1742206321449!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
    </div>
 </section>
 <?php require_once 'includes/footer.inc.php'; ?>

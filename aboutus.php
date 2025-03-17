@@ -78,7 +78,7 @@
 
             <div class="col-md-4 col-12 text-right">
 
-            	<img class="about" src="assets/img/about-us-p.png">
+            	<img class="about" src="assets/img/about-us-image.jpg">
 
             </div>
 

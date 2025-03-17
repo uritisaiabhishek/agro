@@ -6,7 +6,7 @@
             <div class="col-md-7 col-12 py-5">
                <a href="index.php"><img src="assets/img/f-logo.png" height="70"></a>
                <p class="float-none mt-3">Sharada Agro Industries</strong> is a Modern Agriculture Company. We develop products and systems to help farmers around the world grow crops while using the best of the inputs efficiently. We believe Organic Inputs has the potential to bring humanity’s needs in balance with the resources of our planet.</p>
-               <a href="overview.php" class="text-light text-decoration-none">Read More</a>
+               <a href="aboutus.php" class="text-light text-decoration-none">Read More</a>
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-4 col-12 py-5">
