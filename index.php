@@ -52,11 +52,11 @@ if (!empty($products) && is_array($products)) :
                <div class="col-md-4 mb-5">
                   <div class="products-view-outer">
                      <div class="products-box">
-                        <h4><?php echo htmlspecialchars($product['name']); ?></h4>
+                        <h4><?php echo $product['name']; ?></h4>
                         <div class="clearfix"></div>
                         <div class="service-name">
                            <p>
-                              <a href="products48a3.php?url=<?php echo urlencode($product['url']); ?>">View All Products</a>
+                              <a href="products48a3.php?url=<?php echo $product['url']; ?>">View All Products</a>
                            </p>
                            <a href="products48a3.php?url=<?php echo $product['url']; ?>">
                               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAAXVBMVEVHcEz////Y/2n////Y/2nY/2nY/2n////////Y/2nY/2n////Y/2nY/2nY/2n////////////Y/2n////////Y/2n////Y/2nY/2nY/2n////////////////Y/2kVoUxeAAAAHXRSTlMA6+Pj3+fh6ODp694bIJUdwcjmGdOQl8HI05MikGN7YuIAAABsSURBVBjTfc9JDoAwCAVQ1E5a53m+/zFtidIoiSz+4uVDAqwa3JQSaDZtXBZSBAIkSF9kOfFWhJQp3lL/i7buXIopD3SMPs+SoG8ql8tcPGDwGRWeuSElSBBiBmyl/YCgRoWQi3Bjj3wOGcEFPFYDVeEQs70AAAAASUVORK5CYII=">

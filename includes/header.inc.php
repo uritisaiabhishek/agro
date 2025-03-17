@@ -30,12 +30,10 @@
          <meta name="description" content="Sharada Agro Industries is a Modern Agriculture Company. We develop products and systems to help farmers around the world grow crops while using the best of the inputs efficiently. We believe Organic Inputs has the potential to bring humanity’s needs in balance with the resources of our planet."/>
       <?php } ?>
       
-      <meta property="og:image" content="share.jpg" />
       <meta property="og:url" content="<?php echo $_SERVER['REQUEST_URI']; ?>"/>
       <meta property="og:site_name" content="Sharada Agro Industries"/>
       <meta property="og:type" content="website"/>
       <meta property="og:image" content="share.jpg" />
-      <meta property="og:type" content="website"/>
       <?php require_once('includes/header-scripts.inc.php'); ?>
    </head>
    <body>
@@ -66,7 +64,7 @@
                                        <?php foreach ($products as $product) : ?>
                                           <li><a href="products48a3.php?url=<?php echo $product['url']; ?>"><?php echo htmlspecialchars($product['name']); ?></a></li>
                                        <?php endforeach; ?>
-                                       
+
                                     </ul>
                                  </div>
                               </li>
