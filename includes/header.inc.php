@@ -44,12 +44,12 @@
                <div class="top-logo-menu">
                   <div class="menu-bg-top">
                      <nav class="navbar navbar-expand-lg navbar-static">
-                        <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png"></a>
+                        <a class="navbar-brand" href="<?php echo BASE_URL; ?>"><img src="assets/img/logo.png"></a>
                         <button class="navbar-toggler" type="button" data-toggle="slide-collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>            
                         <div class="collapse navbar-collapse" id="navbars">
                            <a href="#" class="nav-close" data-toggle="slide-collapse" data-target="#navbars"><i class="la la-close"></i></a>            	
                            <ul class="navbar-nav ml-auto">
-                              <li class="nav-item"> <a class="nav-link" href="index.php"><span>Home</span></a> </li>
+                              <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_URL; ?>"><span>Home</span></a> </li>
                               <li class="nav-item dropdown"><a class="nav-link" href="aboutus.php"><span>About Us</span></a></li>
                               <?php
                               // Only render the section if $products_list is a non-empty array
@@ -62,7 +62,7 @@
                                     <ul>
                                        
                                        <?php foreach ($products_list as $product) : ?>
-                                          <li><a href="products48a3.php?url=<?php echo $product['url']; ?>"><?php echo htmlspecialchars($product['name']); ?></a></li>
+                                          <li><a href="products.php?url=<?php echo $product['url']; ?>"><?php echo htmlspecialchars($product['name']); ?></a></li>
                                        <?php endforeach; ?>
 
                                     </ul>

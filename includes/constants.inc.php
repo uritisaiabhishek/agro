@@ -1,6 +1,6 @@
 <?php
-    define('BASE_URL', rtrim('http://localhost/sharada-agro-industries/', '/'));
-    define('BASE_PATH', 'C:/xampp/htdocs/sharada-agro-industries/');
+    define('BASE_URL', rtrim('http://localhost/agro/', '/'));
+    define('BASE_PATH', 'C:/xampp/htdocs/agro/');
 
     // Social Media Links
     $social_links = [

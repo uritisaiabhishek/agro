@@ -40,7 +40,7 @@
                             <div class="card">
                 <div class="card-header" id="heading1">
                   <h5 class="mb-0">
-                    	<a class="btn btn-link" href="products48a3.php?url=micronutrients">Micronutrients</a>
+                    	<a class="btn btn-link" href="products.php?url=micronutrients">Micronutrients</a>
                   </h5>
                 </div>
               </div>
