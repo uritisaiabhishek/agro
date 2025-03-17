@@ -1,0 +1,330 @@
+@media only screen and (max-width: 992px) {
+	
+	.mobile-view{ display:block;}
+		.destop-view{ display:none;}
+	 .navbar-nav .nav-link{ color:#fff;}
+
+	 .menus-llitle{ display:none;}
+
+.gallery-box {
+
+	float: left;
+
+	width: 100%;
+
+	display: grid;
+
+	grid-template-columns: repeat(2, 1fr);
+
+	grid-gap: 10px;
+
+}
+
+.dropdown-menu.dropdown-cetogery ul li{width: 100%; margin:0;}
+
+.logo-left {
+
+	background: #fff;
+
+	padding: 10px 41px;
+
+	width: 100%;
+
+	text-align: left;
+
+}
+
+.nav-item {
+
+	padding: 0px;
+
+	margin-bottom: 15px;
+
+}
+
+.banner {
+
+	margin-top: 0px;
+
+}
+
+.logo-left img {
+
+	max-width: 180px;
+
+}
+
+
+
+
+
+.menu-bg-top:after {
+
+	display: none;
+
+}
+
+#navbars {
+
+	position: fixed;
+
+	top: 0;
+
+	right: 0px;
+
+	z-index: 99;
+
+	width: 100%;
+
+	height: 100%;
+
+	background-color: #6cb300;
+
+	overflow: auto;
+
+	padding-top: 30px;
+
+	padding-left: 20px;
+
+	padding-right: 21px;
+
+}
+
+.call-number {
+
+	font-size: 1.6em;
+
+	padding: 0 0 10px 10px;
+
+}
+
+.products-view {
+
+	grid-template-columns: repeat(1, 1fr);
+
+}
+
+.tranding-products {
+
+	background-size: cover;
+
+}
+
+.demand_light-pc img {
+
+	padding: 0px;
+
+}
+
+.btn_icon {
+
+	margin-left: 0px;
+
+}
+
+.btn_icon img {
+
+	display: none;
+
+}
+
+.nav-close {
+
+	display: block;
+
+	color: #fff;
+
+	position: absolute;
+
+	right: 10px;
+
+	padding: 0;
+
+	font-size: 24px;
+
+	z-index: 99;
+
+	top: 7px;
+
+	margin-bottom: 15px;
+
+	position: fixed;
+
+}
+
+.certificates img {
+
+	max-width: 100%;
+
+}
+
+.res-table table {
+
+	width: 100%;
+
+}
+
+.contact-form .form-control {
+
+	margin-bottom: 15px;
+
+}
+
+.page .service-heading {
+
+	margin-bottom: 25px;
+
+}
+.comapny-about{ margin:0px;}
+
+}
+
+ @media only screen and (max-width: 768px) {
+	 
+	 .page .service-heading{ margin-top:25px;}
+.about{ margin-bottom:10px;}
+.quick-links li {
+
+	display: inline-block;
+
+	padding-bottom: 6px;
+
+	padding: 0 18px 10px 0px;
+
+}
+
+.footer-view .col-md-2 {
+
+	background: none;
+
+	padding-top: 35px;
+
+	padding-bottom: 30px;
+
+	float: left;
+
+	width: 100%;
+
+}
+
+.contact-info {
+
+	padding: 0px;
+
+	background: none;
+
+}
+
+.social-media {
+
+	margin-bottom: 30px;
+
+}
+
+.services-grid {
+
+	grid-template-columns: repeat(1, 1fr);
+
+}
+
+.welcome-text {
+
+	text-align: center;
+
+}
+
+.welcome-img {
+
+	margin: 15px 00 0;
+
+}
+
+.outer-contact {
+
+	grid-template-columns: repeat(1, 1fr);
+
+}
+
+.products-view {
+
+	grid-template-columns: repeat(1, 1fr);
+
+	margin-bottom: 60px;
+
+	padding-bottom: 0px;
+
+}
+
+.tranding-products {
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+}
+
+.text-innn {
+
+	display: block;
+
+}
+
+.thumbnail-slider-container {
+
+	float: left;
+
+	width: 100%;
+
+	margin-bottom: 30px;
+
+}
+
+.g-view {
+
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+.services-page .text-left-serv, .right-img {
+
+	width: 100%;
+
+	padding: 5px 0;
+
+	margin-bottom: 10px;
+
+}
+
+}
+
+ @media only screen and (max-width: 680px) {
+
+.gallery-box {
+
+	grid-template-columns: repeat(1, 1fr);
+
+}
+
+.ceti .img-over img {
+
+	height: auto;
+
+}
+
+.slider-img, .slider-text-treanding {
+
+	width: 100%;
+
+	border-radius: 0px;
+
+}
+
+.g-view {
+
+	grid-template-columns: repeat(1, 1fr);
+
+}
+.navbar-nav .nav-link i{ font-size:16px}
+
+}
+
