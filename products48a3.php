@@ -1,40 +1,58 @@
 <?php require_once 'includes/header.inc.php'; ?>
-<!--banner-->
-<section class="i-banner">
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row">
-      	
-        <div class="col-md-12 col-12">
 
-          <h1><span>Micronutrients</span></h1>
+<?php 
+  // Get URL parameter
+  $product_current_category = isset($_GET['url']) ? $_GET['url'] : '';
+  // echo $product_current_category;
+  // Find the matching category
+  $selected_category = null;
 
-          <p style="padding: 0;text-align: center;color: #ffffff;font-size: 17px;">Micronutrients</p>
+  foreach ($products_list as $category) {
+      if ($category['url'] === $product_current_category) {
+          $selected_category = $category;
+          break;
+      }
+  }
+  // print_r($selected_category['products']);
+  if(isset($products_list) && !empty($products_list)) { 
+?>
+  <!--banner-->
+  <section class="i-banner">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-12 col-12">
 
-          <div class="breadcrumb-banner">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Micronutrients</li>
-              </ol>
-            </nav>
+            <h1><span><?php echo $selected_category['name']; ?></span></h1>
+
+            <p style="padding: 0;text-align: center;color: #ffffff;font-size: 17px;"><?php echo $selected_category['name']; ?></p>
+
+            <div class="breadcrumb-banner">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="<?php echo BASE_URL; ?>">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><?php echo $selected_category['name']; ?></li>
+                </ol>
+              </nav>
+            </div>
+
           </div>
 
         </div>
-
       </div>
     </div>
-  </div>
-</section>
-<?php if(isset($products_list) && !empty($products_list)) { ?>
-  <section class="page">
+  </section>
+
+  <?php if(isset($selected_category['products']) && !empty($selected_category['products'])) { ?>
+    <section class="page">
       <div class="container-fluid">
         <div class="container">
           <div class="row">
         
             <div class="col-md-3 col-12">
               <div class="left-category">
-                <h2>Biological Products</h2>
+                <h2><?php echo $selected_category['name']; ?></h2>
                 <div id="accordion">
                   
                   <?php foreach($products_list as $product_category) { ?> 
@@ -57,33 +75,7 @@
               <div class="row">
                   <div class="col-md-12">
                       
-                    <div class="service-heading">
-                      <div class="heading-s">
-                        <h2><span></span></h2>
-                      </div>
-                    </div>
-
-                    <p style="padding: 12px 0;"></p>
-
                     <div class="row">
-                      
-                      <?php 
-                        // Get URL parameter
-                        $product_current_category = isset($_GET['url']) ? $_GET['url'] : '';
-                        // echo $product_current_category;
-                        // Find the matching category
-                        $selected_category = null;
-
-                        foreach ($products_list as $category) {
-                            if ($category['url'] === $product_current_category) {
-                                $selected_category = $category;
-                                break;
-                            }
-                        }
-
-                        // print_r($selected_category['products']);
-
-                      ?>
 
                       <?php foreach ($selected_category['products'] as $product) : ?>
                         <div class="col-md-4">
@@ -96,12 +88,15 @@
                                   </a>
                                 </div>
                                 <div class="products-name">
-                                  <p><a class="read-more-btn" href="product-suppliersa2e3.php?pcode=<?php echo $product['url']; ?>">View Product Details</a></p>
+                                  <p>
+                                    <a class="read-more-btn" href="product-suppliersa2e3.php?pcode=<?php echo $product['url']; ?>">
+                                      View Product Details
+                                    </a>
+                                  </p>
                               </div>
                             </div>
                         </div>
                       <?php endforeach; ?>
-                        
 
                       <div class="col-md-4">
                             <div class="product-deatil">
@@ -220,12 +215,20 @@
         </div>
       </div>
     </section>
+  <?php }else{ ?>
+    <div class="container">
+      <div class="col-md-8 mx-auto py-5">
+        <?php echo 'No data Found'; ?>
+      </div>
+    </div>
+  <?php } ?>
 
-<?php
-  }else{
-    echo 'Not Found';
-  }
-?>
-
+<?php }else{ ?>
+  <div class="container">
+    <div class="col-md-8 mx-auto py-5">
+      <?php echo 'No data Found'; ?>
+    </div>
+  </div>
+<?php } ?>
 
 <?php require_once 'includes/footer.inc.php'; ?>
