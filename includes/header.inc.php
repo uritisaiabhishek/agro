@@ -52,8 +52,8 @@
                               <li class="nav-item"> <a class="nav-link" href="index.php"><span>Home</span></a> </li>
                               <li class="nav-item dropdown"><a class="nav-link" href="aboutus.php"><span>About Us</span></a></li>
                               <?php
-                              // Only render the section if $products is a non-empty array
-                              if (!empty($products) && is_array($products)) :
+                              // Only render the section if $products_list is a non-empty array
+                              if (!empty($products_list) && is_array($products_list)) :
                               ?>
                               
                               <li class="nav-item dropdown">
@@ -61,7 +61,7 @@
                                  <div class="dropdown-menu dropdown-cetogery">
                                     <ul>
                                        
-                                       <?php foreach ($products as $product) : ?>
+                                       <?php foreach ($products_list as $product) : ?>
                                           <li><a href="products48a3.php?url=<?php echo $product['url']; ?>"><?php echo htmlspecialchars($product['name']); ?></a></li>
                                        <?php endforeach; ?>
 
