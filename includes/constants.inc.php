@@ -12,7 +12,8 @@
 
     // Contact Details
     define('SITE_EMAIL', trim('contact@sharadaagro.com'));
-    define('PHONE', trim(''));
+    define('PHONE1', '+91 7680881760');
+    define('PHONE2', '+91 9440008816');
     define('ADDRESS', trim(''));
 
     // Product List

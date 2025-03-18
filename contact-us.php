@@ -74,8 +74,8 @@
                      </div>
                      <div class="adddress">
                         <span><i class="la la-phone"></i></span>
-                        <p>(+91) 141 – 2600525 </p>
-                        <p style="margin:-4px 0 0 0;">(+91) 141 – 4020690</p>
+                        <p><a href="tel:<?php echo PHONE1; ?>"><?php echo PHONE1; ?></a></p>
+                        <p style="margin:-4px 0 0 0;"><a href="tel:<?php echo PHONE2; ?>"><?php echo PHONE2; ?></a></p>
                      </div>
                      <div class="adddress">
                         <span><i class="la la-envelope"></i></span>
