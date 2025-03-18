@@ -73,17 +73,13 @@
                 </div>
                 <div class="col-md-7 col-12">
                     <div class="pro-details">
-                      <h2>ZINSO</span></h2>
-                      <div class="p-d-btns">
-                          <a  class="feture-btn" href="javascript:void(0)" data-toggle="modal" data-target="#query">Send Query</a>
-                      </div>
-                      <div class="prod-deatil">
-                      </div>
+                      <h2><?php echo $selected_product['name']; ?></span></h2>
+                      
                       <div class="benefits" style="padding:10px 0 0 0;">
                           <span>Product Description</span>
-                          <p>
+                          
                           <p><strong>ZlNSO&nbsp;</strong>contains Zinc, Calcium, &amp;Sulphur which are essential plant nutrients. It helps to keep phosphorous, potassium, and other nutrients from leaving farm fields. It improves soil porosity and water holding capacity resulting in good soil tilth.</p>
-                          <p>&nbsp;</p>
+                          
                           <p><strong>COMPOSITION :</strong></p>
                           <table align="center" border="1" cellpadding="1" cellspacing="1" style="width:300px">
                             <tbody>
@@ -101,16 +97,16 @@
                                 </tr>
                             </tbody>
                           </table>
-                          <p>&nbsp;</p>
+                          
                           <p><strong>BENEFITS</strong></p>
                           <p>&nbsp;&nbsp;&diams; Zinc Present in ZINSO is important for maximizing leaf and vascular growth, increasing plant root growth, and promoting a massive root system. The fortified roots help increase nutrient uptake and water-use efficiency for overall plant growth.</p>
                           <p>&nbsp;&nbsp;&diams; Sulphur present in ZlNSO helps in activating enzymes responsible for increasing oil and protein content in Oilseeds/ Pulses.</p>
                           <p>&nbsp;&nbsp;&diams; Calcium present in ZlNSO activates different enzymes for cell division and is essential for the stability of the cell membrane, which boosts the overall growth and health of the plant.</p>
-                          <p>&nbsp;</p>
+                          
                           <p><strong>Dosage:</strong>5-10 Kg/ Acre</p>
-                          <p>&nbsp;</p>
+                          
                           <p><strong>Packaging:&nbsp;</strong>5kg Pouch</p>
-                          </p>
+                          
                       </div>
                     </div>
                 </div>
