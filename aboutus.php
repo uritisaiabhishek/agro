@@ -70,17 +70,17 @@
 
                 <p><strong>Sharada Agro Industries</strong> is a Modern Agriculture Company. We develop products and systems to help farmers around the world grow crops while using the best of the inputs efficiently. We believe Organic Inputs has the potential to bring humanity’s needs in balance with the resources of our planet.</p>
 
-            <p>Sharada Agro Industries was established in the year 1996, during that time it was one of India’s First Bio Fertilizers company.  Since then the company has diversified into multiple categories of Agriculture Inputs.  The company’s policy is to provide the best of the products and never compromise with the quality, which is evident from regular sample tests of the products at Government level from time to time. </p>
+                <p>Sharada Agro Industries was established in the year 1996, during that time it was one of India’s First Bio Fertilizers company.  Since then the company has diversified into multiple categories of Agriculture Inputs.  The company’s policy is to provide the best of the products and never compromise with the quality, which is evident from regular sample tests of the products at Government level from time to time. </p>
 
-            <p>Our team includes agriculturalists, horticulturists and pest control experts that have in-depth knowledge along with exceptional professional skills which help us in bringing forth a great quality range. Our skilled business ethics and easy payment options have enabled us to serve a huge client base.  We have a state-of-the-art infrastructure base comprising several departments, ranging from research & development unit to production and logistics units. We have installed the latest machinery in these units to develop world-class products and run the operations smoothly. Our entire operations are headed by experienced professionals, who execute their assigned jobs diligently within the parameters of productivity, time and costs. Since our establishment, we have been meeting the market demands successfully. Due to our quality products and customer-centric approaches, we have earned a strong base of satisfied patronage.</p>
+                <p>Our team includes agriculturalists, horticulturists and pest control experts that have in-depth knowledge along with exceptional professional skills which help us in bringing forth a great quality range. Our skilled business ethics and easy payment options have enabled us to serve a huge client base.  We have a state-of-the-art infrastructure base comprising several departments, ranging from research & development unit to production and logistics units. We have installed the latest machinery in these units to develop world-class products and run the operations smoothly. Our entire operations are headed by experienced professionals, who execute their assigned jobs diligently within the parameters of productivity, time and costs. Since our establishment, we have been meeting the market demands successfully. Due to our quality products and customer-centric approaches, we have earned a strong base of satisfied patronage.</p>
 
-            </div>
+              </div>
 
-            <div class="col-md-4 col-12 text-right">
+              <div class="col-md-4 col-12 text-right">
 
-            	<img class="about" src="assets/img/about-us-image.jpg">
+                <img class="about" src="assets/img/about-us-image.jpg">
 
-            </div>
+              </div>
 
             </div>
 
