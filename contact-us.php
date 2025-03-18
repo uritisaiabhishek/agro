@@ -87,9 +87,8 @@
                      </h2>
                      <div class="brochures-list">
                         <ul>
-                           <li><a href="assets/img/pdf/Brochure_Jaipur%20Bio%20Fertilizers_India.pdf" target="_blank"><i class="las la-file-download"></i> Sharada Agro Industries Brochure</a></li>
-                           <li><a href="assets/img/pdf/Biological_Products_Jaipur_Bio_Fertilizers.pdf" target="_blank"><i class="las la-file-download"></i> Biological Products_Sharada Agro Industries</a></li>
-                           <li><a href="assets/img/pdf/Broucher_SC_Concentrates_Speciality_Fertilizers.pdf" target="_blank"><i class="las la-file-download"></i> Broucher_SC Concentrates & Speciality Fertilizers</a></li>
+                           <li><a href="assets/documents/BIO ENRICHED ORGANIC MANURE.pdf" target="_blank"><i class="las la-file-download"></i> BIO ENRICHED ORGANIC MANURE</a></li>
+                           <li><a href="assets/documents/STRAIGHT POTASSIC FERTILIZER.pdf" target="_blank"><i class="las la-file-download"></i> STRAIGHT POTASSIC FERTILIZER</a></li>
                         </ul>
                      </div>
                   </div>
