@@ -1,6 +1,6 @@
 <?php
-    define('BASE_URL', rtrim('http://localhost/agro/', '/'));
-    define('BASE_PATH', 'C:/xampp/htdocs/agro/');
+    define('BASE_URL', rtrim('https://sharadaagro.com', '/'));
+    define('BASE_PATH', '/');
 
     // Social Media Links
     $social_links = [
@@ -11,7 +11,7 @@
     ];
 
     // Contact Details
-    define('EMAIL', trim(''));
+    define('SITE_EMAIL', trim('contact@sharadaagro.com'));
     define('PHONE', trim(''));
     define('ADDRESS', trim(''));
 

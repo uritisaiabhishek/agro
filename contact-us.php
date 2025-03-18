@@ -79,8 +79,8 @@
                      </div>
                      <div class="adddress">
                         <span><i class="la la-envelope"></i></span>
-                        <p class="w-100"><strong>Domestic Enquiries:</strong> &nbsp;<a href="mailto:contact@sharadaagro.com">contact@sharadaagro.com</a></p>
-                        <p style="margin:-8px 0 0 0;" class="w-100"><strong>Export Enquiries:</strong> &nbsp;<a href="mailto:contact@sharadaagro.com">contact@sharadaagro.com</a></p>
+                        <p class="w-100"><strong>Domestic Enquiries:</strong> &nbsp;<a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a></p>
+                        <p style="margin:-8px 0 0 0;" class="w-100"><strong>Export Enquiries:</strong> &nbsp;<a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a></p>
                      </div>
                      <h2 class="heading-page">
                         <span>Brochures</span>
