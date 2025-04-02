@@ -82,15 +82,6 @@
                         <p class="w-100"><strong>Domestic Enquiries:</strong> &nbsp;<a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a></p>
                         <p style="margin:-8px 0 0 0;" class="w-100"><strong>Export Enquiries:</strong> &nbsp;<a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a></p>
                      </div>
-                     <h2 class="heading-page">
-                        <span>Brochures</span>
-                     </h2>
-                     <div class="brochures-list">
-                        <ul>
-                           <li><a href="assets/documents/BIO ENRICHED ORGANIC MANURE.pdf" target="_blank"><i class="las la-file-download"></i> BIO ENRICHED ORGANIC MANURE</a></li>
-                           <li><a href="assets/documents/STRAIGHT POTASSIC FERTILIZER.pdf" target="_blank"><i class="las la-file-download"></i> STRAIGHT POTASSIC FERTILIZER</a></li>
-                        </ul>
-                     </div>
                   </div>
                </div>
             </div>
